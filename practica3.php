@@ -14,15 +14,15 @@
         $cadena2 = "0256";
         $nulo = null;  
         
-        echo 'la conversion a boolean de la variable $entero es '.(boolean)$entero;
+        echo "la conversion a boolean de la variable $entero es ".(boolean)$entero;
         echo "<br>";
-        echo 'la conversion a boolean de la variable $decimal es '.(boolean)$decimal;
+        echo "la conversion a boolean de la variable $decimal es ".(boolean)$decimal;
         echo "<br>";
-        echo 'la conversion a boolean de la variable $cadena es '.(boolean)$cadena;
+        echo "la conversion a boolean de la variable $cadena es ".(boolean)$cadena;
         echo "<br>";
-        echo 'la conversion a boolean de la variable $cadena2 es '.(boolean)$cadena2;
+        echo "la conversion a boolean de la variable $cadena2 es ".(boolean)$cadena2;
         echo "<br>";
-        echo 'la conversion a boolean de la variable $nulo es '.(boolean)$nulo;
+        echo "la conversion a boolean de la variable $nulo es 2".(boolean)$nulo;
         echo "<br>"; 
     ?>
 </body>
