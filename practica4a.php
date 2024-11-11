@@ -33,6 +33,24 @@
             echo"<br>";
         }
         
+        /* creamos funcion para encontrar un numero en el array usando el metodo DO WHILE */
+        $a = array(8,786,45,4,63,89,1478,98);
+        $encontrado = FALSE;
+        $buscado = 98;
+        $i = 0;
+
+        do{
+            if ($a[$i] == $buscado) {
+                $encontrado = TRUE;
+            }
+            $i++;
+        }while(($i <= 7) && (!$encontrado));
+        if ($encontrado) {
+            echo "El numero $buscado esta en la lista";
+        }else{
+            echo "El numero $buscado NO esta en la lista";
+        }
+
     ?>
 </body>
 </html>
